@@ -1,0 +1,121 @@
+
+
+body
+{
+	margin-left:    0px;
+	margin-right:   auto;
+	margin-top:     0px;
+	margin-bottom:  0px;
+	padding:        0px;
+	width:          1024;
+	background:     repeat url(../images/walnut.jpg);
+	font:           12px Times New Roman, Times, serif;
+	line-height:    15px;
+	text-align:     left;
+	color:          #000000;
+}
+
+p
+{
+	padding-bottom: 6px;
+	margin:         0px;
+	font:           12px Times New Roman, Times, serif;
+	line-height:    15px;
+	text-indent:    0px;
+	text-align:     justify;
+	color:          #000000;
+}
+
+a
+{
+	color:           #B72707;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:           #B72707;
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color:           #774f37;
+}
+
+table
+{
+	font:          12px Times New Roman, Times, serif;
+	line-height:   15px;
+	text-align:    center;
+	color:         #000000;
+}
+
+h1
+{
+	margin:        0px;
+	padding:       75px;
+	font:          24px Times New Roman, Times, serif;
+	line-height:   30px;
+	font-style:    italic; 
+	text-align:    right;
+	color:         #000000;
+}
+
+#BookHead
+{ 
+	position:      absolute;
+	margin:        0px;
+	padding:       0px;
+	width:         1024px;
+	height:        200px;
+	top:           0px;
+	background:    no-repeat center #ffffff url(../images/BookHeader.jpg);
+}
+
+#BookBody
+{
+	position:      absolute;
+	margin:        0px;
+	padding:       0px;
+	width:         1024px;
+	height:        auto;
+	top:           200px;
+	background:    repeat-y center top #ffffff url(../images/BookBody.jpg);
+	font:          12px Times New Roman, Times, serif;
+	line-height:   15px;
+	text-indent:   0px;
+	text-align:    justify;
+	color:         #000000;
+}
+
+#LeftPage
+{ 
+	width:         390px;
+	left:          auto;
+	right:         50%;
+	padding-left:  75px;
+}
+
+#RightPage
+{
+	position:      absolute;
+	width:         390px;
+	left:          50%;
+	top:           0px;
+	right:         auto;
+	padding-left:  40px;
+}
+
+#BookFoot
+{
+	margin:        0px;
+	width:         1024px;
+	height:        143px;
+	background:    no-repeat center #ffffff url(../images/BookFooter.jpg);
+	text-indent:   0px;
+	text-align:    center;
+	line-height:   25px;
+	color:         #000000;
+}
+
